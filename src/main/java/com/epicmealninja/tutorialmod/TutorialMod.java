@@ -1,5 +1,6 @@
 package com.epicmealninja.tutorialmod;
 
+import com.epicmealninja.tutorialmod.block.ModBlocks;
 import com.epicmealninja.tutorialmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -47,6 +48,7 @@ public class TutorialMod
         modEventBus.addListener(this::commonSetup);
 
         ModItems.registerModItems(modEventBus);
+        ModBlocks.registerModBlocks(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
