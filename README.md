@@ -1,6 +1,6 @@
 # Jacob's Mod For Friends
 ## Description
-<center>This mod adds a bunch of materials and tools for each of Jacob's friends because he, me, is a very uncreative person.</center>
+<p style="text-align:center">This mod adds a bunch of materials and tools for each of Jacob's friends because he, me, is a very uncreative person.</p>
 
 ## Credits
 Me  
