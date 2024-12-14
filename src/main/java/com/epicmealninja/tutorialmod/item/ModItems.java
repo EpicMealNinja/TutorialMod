@@ -26,14 +26,7 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_CORITITE = ITEMS.register("raw_coritite",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> ALEXIUM = ITEMS.register("alexium",
-            () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_ALEXIUM = ITEMS.register("raw_alexium",
-            () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> AVOUS = ITEMS.register("avous",
-            () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_AVOUS = ITEMS.register("raw_avous",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> EVANUM = ITEMS.register("evanum",
@@ -42,8 +35,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> JACORITE = ITEMS.register("jacorite",
-            () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_JACORITE = ITEMS.register("raw_jacorite",
             () -> new Item(new Item.Properties()));
     /***********************************************************************/
 

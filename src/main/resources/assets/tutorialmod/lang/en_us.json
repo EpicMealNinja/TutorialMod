@@ -3,12 +3,11 @@
   "item.tutorialmod.raw_pyite": "Raw Pyite",
   "item.tutorialmod.coritite": "Coritite",
   "item.tutorialmod.raw_coritite": "Raw Coritite",
-  "item.tutorialmod.alexium": "Alexium",
-  "item.tutorialmod.raw_alexium": "Raw Alexium",
   "item.tutorialmod.avous": "Avous",
-  "item.tutorialmod.raw_avous": "Raw Avous",
   "item.tutorialmod.evanum": "Evanum",
   "item.tutorialmod.raw_evanum": "Raw Evanum",
   "item.tutorialmod.jacorite": "Jacorite",
-  "item.tutorialmod.raw_jacorite": "Raw Jacorite"
+
+  "block.tutorialmod.pyite_ore": "Pyite Ore",
+  "block.tutorialmod.alexium_mushroom": "Alexium Mushroom"
 }
