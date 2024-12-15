@@ -1,6 +1,7 @@
 package com.epicmealninja.tutorialmod;
 
 import com.epicmealninja.tutorialmod.block.ModBlocks;
+import com.epicmealninja.tutorialmod.item.ModCreativeModeTabs;
 import com.epicmealninja.tutorialmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -46,9 +47,10 @@ public class TutorialMod
     {
         IEventBus modEventBus = context.getModEventBus();
 
-        // Register the commonSetup method for modloading
+        // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.registerCreativeModeTab(modEventBus);
         ModItems.registerModItems(modEventBus);
         ModBlocks.registerModBlocks(modEventBus);
 
@@ -70,10 +72,7 @@ public class TutorialMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.PYITE);
-            event.accept(ModItems.RAW_PYITE);
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
