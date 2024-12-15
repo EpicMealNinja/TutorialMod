@@ -1,0 +1,6 @@
+{
+  "parent": "jacobs_materials:item/smaller_util",
+  "textures": {
+    "layer0": "jacobs_materials:block/alexium_mushroom"
+  }
+}

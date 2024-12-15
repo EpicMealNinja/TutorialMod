@@ -1,0 +1,17 @@
+{
+  "item.jacobs_materials.pyite": "Pyite",
+  "item.jacobs_materials.raw_pyite": "Raw Pyite",
+  "item.jacobs_materials.coritite": "Coritite",
+  "item.jacobs_materials.raw_coritite": "Raw Coritite",
+  "item.jacobs_materials.avous": "Avous",
+  "item.jacobs_materials.evanum": "Evanum",
+  "item.jacobs_materials.raw_evanum": "Raw Evanum",
+  "item.jacobs_materials.jacorite": "Jacorite",
+
+  "block.jacobs_materials.pyite_ore": "Pyite Ore",
+  "block.jacobs_materials.alexium_mushroom": "Alexium Mushroom",
+  "block.jacobs_materials.avous_spruce_log": "Avous Spruce Log",
+  "block.jacobs_materials.stripped_avous_spruce_log": "Stripped Avous Spruce Log",
+
+  "creativetab.jacobs_materials.jacobs_materials": "Jacob's Materials"
+}

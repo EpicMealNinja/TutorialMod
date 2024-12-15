@@ -1,6 +1,0 @@
-{
-  "parent": "tutorialmod:item/smaller_util",
-  "textures": {
-    "layer0": "tutorialmod:block/alexium_mushroom"
-  }
-}
