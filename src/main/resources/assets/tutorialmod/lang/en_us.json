@@ -9,5 +9,9 @@
   "item.tutorialmod.jacorite": "Jacorite",
 
   "block.tutorialmod.pyite_ore": "Pyite Ore",
-  "block.tutorialmod.alexium_mushroom": "Alexium Mushroom"
+  "block.tutorialmod.alexium_mushroom": "Alexium Mushroom",
+  "block.tutorialmod.avous_spruce_log": "Avous Spruce Log",
+  "block.tutorialmod.stripped_avous_spruce_log": "Stripped Avous Spruce Log",
+
+  "creativetab.tutorialmod.jacobs_materials": "Jacob's Materials"
 }

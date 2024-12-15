@@ -2,14 +2,10 @@ package com.epicmealninja.tutorialmod.block;
 
 import com.epicmealninja.tutorialmod.TutorialMod;
 import com.epicmealninja.tutorialmod.item.ModItems;
-import com.mojang.blaze3d.shaders.Effect;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.component.SuspiciousStewEffects;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.FlowerBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,9 +26,13 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
-    public static final RegistryObject<Block> AVOUS_WOOD = registerBlock("avous_wood",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> AVOUS_SPRUCE_LOG = registerBlock("avous_spruce_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of()
+                    .strength(1f).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> STRIPPED_AVOUS_SPRUCE_LOG = registerBlock("stripped_avous_spruce_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of()
+                    .strength(1f).sound(SoundType.WOOD)));
 
     public static final RegistryObject<Block> ALEXIUM_MUSHROOM = registerBlock("alexium_mushroom",
             () -> new FlowerBlock(SuspiciousStewEffects.EMPTY, BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_MUSHROOM)
