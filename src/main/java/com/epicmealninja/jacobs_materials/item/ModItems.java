@@ -36,6 +36,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> JACORITE = ITEMS.register("jacorite",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SAMMITE_SHARD = ITEMS.register("sammite_shard",
+            () -> new Item(new Item.Properties()));
     /***********************************************************************/
 
 

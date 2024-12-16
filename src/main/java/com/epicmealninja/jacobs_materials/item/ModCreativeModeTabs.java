@@ -22,15 +22,22 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.JACORITE.get());
                         output.accept(ModItems.PYITE.get());
                         output.accept(ModItems.RAW_PYITE.get());
-                        //output.accept(ModItems.CORITITE.get());
+                        output.accept(ModItems.CORITITE.get());
                         //output.accept(ModItems.RAW_CORITITE.get());
                         output.accept(ModItems.AVOUS.get());
                         output.accept(ModItems.EVANUM.get());
                         //output.accept(ModItems.RAW_EVANUM.get());
+                        output.accept(ModItems.SAMMITE_SHARD.get());
 
                         output.accept(ModBlocks.AVOUS_SPRUCE_LOG.get());
                         output.accept(ModBlocks.STRIPPED_AVOUS_SPRUCE_LOG.get());
                         output.accept(ModBlocks.ALEXIUM_MUSHROOM.get());
+                        output.accept(ModBlocks.SAMMITE_CRYSTAL.get());
+                        output.accept(ModBlocks.JACORITE_ORE.get());
+                        output.accept(ModBlocks.CORITITE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_CORITITE_ORE.get());
+                        output.accept(ModBlocks.EVANUM_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_EVANUM_ORE.get());
                     }).build());
 
     public static void registerCreativeModeTab(IEventBus eventBus) {

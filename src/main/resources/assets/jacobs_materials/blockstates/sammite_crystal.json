@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "jacobs_materials:block/sammite_crystal",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "jacobs_materials:block/sammite_crystal",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "jacobs_materials:block/sammite_crystal",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "jacobs_materials:block/sammite_crystal",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "jacobs_materials:block/sammite_crystal"
+    },
+    "facing=west": {
+      "model": "jacobs_materials:block/sammite_crystal",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
