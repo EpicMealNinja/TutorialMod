@@ -23,10 +23,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PYITE.get());
                         output.accept(ModItems.RAW_PYITE.get());
                         output.accept(ModItems.CORITITE.get());
-                        //output.accept(ModItems.RAW_CORITITE.get());
+                        output.accept(ModItems.RAW_CORITITE.get());
                         output.accept(ModItems.AVOUS.get());
                         output.accept(ModItems.EVANUM.get());
-                        //output.accept(ModItems.RAW_EVANUM.get());
+                        output.accept(ModItems.RAW_EVANUM.get());
                         output.accept(ModItems.SAMMITE_SHARD.get());
 
                         output.accept(ModBlocks.AVOUS_SPRUCE_LOG.get());

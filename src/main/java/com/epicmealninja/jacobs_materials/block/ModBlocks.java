@@ -35,7 +35,7 @@ public class ModBlocks {
                     .strength(1f).sound(SoundType.WOOD)));
     /***********************************************************************/
     public static final RegistryObject<Block> ALEXIUM_MUSHROOM = registerBlock("alexium_mushroom",
-            () -> new FlowerBlock(SuspiciousStewEffects.EMPTY, BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_CLUSTER)
+            () -> new FlowerBlock(SuspiciousStewEffects.EMPTY, BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_MUSHROOM)
                     .lightLevel(p_50886_->3)));
     /***********************************************************************/
     public static final RegistryObject<Block> EVANUM_ORE = registerBlock("evanum_ore",
