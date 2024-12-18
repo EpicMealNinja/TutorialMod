@@ -72,6 +72,8 @@ public class ModBlocks {
     /***********************************************************************/
     public static final RegistryObject<Block> SAMMITE_CRYSTAL = registerBlock("sammite_crystal",
             () -> new AmethystClusterBlock(7f, 3f, BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_CLUSTER).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> SAMMITE_BLOCK = registerBlock("sammite_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
     /***********************************************************************/
 
 

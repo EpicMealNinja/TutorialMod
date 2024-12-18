@@ -33,6 +33,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.STRIPPED_AVOUS_SPRUCE_LOG.get());
                         output.accept(ModBlocks.ALEXIUM_MUSHROOM.get());
                         output.accept(ModBlocks.SAMMITE_CRYSTAL.get());
+                        output.accept(ModBlocks.SAMMITE_BLOCK.get());
                         output.accept(ModBlocks.JACORITE_ORE.get());
                         output.accept(ModBlocks.JACORITE_BLOCK.get());
                         output.accept(ModBlocks.CORITITE_ORE.get());
