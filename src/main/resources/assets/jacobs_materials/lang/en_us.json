@@ -15,10 +15,14 @@
   "block.jacobs_materials.avous_spruce_log": "Avous Spruce Log",
   "block.jacobs_materials.stripped_avous_spruce_log": "Stripped Avous Spruce Log",
   "block.jacobs_materials.jacorite_ore": "Jacorite Ore",
+  "block.jacobs_materials.jacorite_block": "Jacorite Block",
   "block.jacobs_materials.coritite_ore": "Coritite Ore",
   "block.jacobs_materials.deepslate_coritite_ore": "Deepslate Coritite Ore",
+  "block.jacobs_materials.coritite_block": "Coritite Block",
   "block.jacobs_materials.evanum_ore": "Evanum Ore",
   "block.jacobs_materials.deepslate_evanum_ore": "Deepslate Evanum Ore",
+  "block.jacobs_materials.evanum_block": "Evanum Block",
+
 
 
   "creativetab.jacobs_materials.jacobs_materials": "Jacob's Materials"

@@ -34,10 +34,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ALEXIUM_MUSHROOM.get());
                         output.accept(ModBlocks.SAMMITE_CRYSTAL.get());
                         output.accept(ModBlocks.JACORITE_ORE.get());
+                        output.accept(ModBlocks.JACORITE_BLOCK.get());
                         output.accept(ModBlocks.CORITITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_CORITITE_ORE.get());
+                        output.accept(ModBlocks.CORITITE_BLOCK.get());
                         output.accept(ModBlocks.EVANUM_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_EVANUM_ORE.get());
+                        output.accept(ModBlocks.EVANUM_BLOCK.get());
                     }).build());
 
     public static void registerCreativeModeTab(IEventBus eventBus) {
