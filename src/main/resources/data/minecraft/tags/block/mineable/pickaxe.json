@@ -1,0 +1,9 @@
+{
+  "replace": "false",
+  "values": [
+    "jacobs_materials:evanum_ore",
+    "jacobs_materials:deepslate_evanum_ore",
+    "jacobs_materials:evanum_block",
+    "jacobs_materials:raw_evanum_block"
+  ]
+}

@@ -39,9 +39,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CORITITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_CORITITE_ORE.get());
                         output.accept(ModBlocks.CORITITE_BLOCK.get());
+                        output.accept(ModBlocks.RAW_CORITITE_BLOCK.get());
                         output.accept(ModBlocks.EVANUM_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_EVANUM_ORE.get());
                         output.accept(ModBlocks.EVANUM_BLOCK.get());
+                        output.accept(ModBlocks.RAW_EVANUM_BLOCK.get());
                     }).build());
 
     public static void registerCreativeModeTab(IEventBus eventBus) {

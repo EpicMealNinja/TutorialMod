@@ -2,6 +2,7 @@ package com.epicmealninja.jacobs_materials.block;
 
 import com.epicmealninja.jacobs_materials.Jacobs_Materials;
 import com.epicmealninja.jacobs_materials.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.component.SuspiciousStewEffects;
@@ -39,31 +40,37 @@ public class ModBlocks {
                     .lightLevel(p_50886_->3)));
     /***********************************************************************/
     public static final RegistryObject<Block> EVANUM_ORE = registerBlock("evanum_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new DropExperienceBlock(UniformInt.of(2,4),BlockBehaviour.Properties.of()
+                    .strength(4.5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> DEEPSLATE_EVANUM_ORE = registerBlock("deepslate_evanum_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4.5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+            () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     public static final RegistryObject<Block> EVANUM_BLOCK = registerBlock("evanum_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .sound(SoundType.METAL).strength(50f, 1200f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> RAW_EVANUM_BLOCK = registerBlock("raw_evanum_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RAW_IRON_BLOCK).strength(3f)));
     /***********************************************************************/
     public static final RegistryObject<Block> CORITITE_ORE = registerBlock("coritite_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new DropExperienceBlock(UniformInt.of(2,4),BlockBehaviour.Properties.of()
+                    .strength(4.5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> DEEPSLATE_CORITITE_ORE = registerBlock("deepslate_coritite_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4.5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+            () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     public static final RegistryObject<Block> CORITITE_BLOCK = registerBlock("coritite_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .sound(SoundType.METAL).strength(50f, 1200f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> RAW_CORITITE_BLOCK = registerBlock("raw_coritite_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RAW_GOLD_BLOCK).strength(3f)));
     /***********************************************************************/
     public static final RegistryObject<Block> JACORITE_ORE = registerBlock("jacorite_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new DropExperienceBlock(UniformInt.of(2,4),BlockBehaviour.Properties.of()
                     .strength(30f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> JACORITE_BLOCK = registerBlock("jacorite_block",

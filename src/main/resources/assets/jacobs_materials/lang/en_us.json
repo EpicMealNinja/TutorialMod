@@ -1,10 +1,10 @@
 {
   "item.jacobs_materials.pyite": "Pyite",
   "item.jacobs_materials.raw_pyite": "Raw Pyite",
-  "item.jacobs_materials.coritite": "Coritite",
+  "item.jacobs_materials.coritite": "Coritite Ingot",
   "item.jacobs_materials.raw_coritite": "Raw Coritite",
   "item.jacobs_materials.avous": "Avous",
-  "item.jacobs_materials.evanum": "Evanum",
+  "item.jacobs_materials.evanum": "Evanum Ingot",
   "item.jacobs_materials.raw_evanum": "Raw Evanum",
   "item.jacobs_materials.jacorite": "Jacorite",
   "item.jacobs_materials.sammite_shard": "Sammite Shard",
@@ -20,9 +20,11 @@
   "block.jacobs_materials.coritite_ore": "Coritite Ore",
   "block.jacobs_materials.deepslate_coritite_ore": "Deepslate Coritite Ore",
   "block.jacobs_materials.coritite_block": "Coritite Block",
+  "block.jacobs_materials.raw_coritite_block": "Raw Coritite Block",
   "block.jacobs_materials.evanum_ore": "Evanum Ore",
   "block.jacobs_materials.deepslate_evanum_ore": "Deepslate Evanum Ore",
   "block.jacobs_materials.evanum_block": "Evanum Block",
+  "block.jacobs_materials.raw_evanum_block": "Raw Evanum Block",
 
 
 

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+    "item": "jacobs_materials:raw_evanum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "jacobs_materials:raw_evanum"
+  }
+}
